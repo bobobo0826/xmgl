@@ -1,0 +1,29 @@
+#root {
+    height: 100%;
+    .maintmpl {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        $left_width: 200px;
+        .leftmenu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: $left_width;
+        }
+        .content {
+            position: absolute;
+            top:0;
+            left: $left_width;
+            right: 0;
+            bottom: 0;
+
+            iframe{
+                border: 0px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

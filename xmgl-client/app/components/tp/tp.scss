@@ -1,0 +1,155 @@
+.list {
+  padding:10px;
+  .list-head {
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0;
+    background-color: #117f7f;
+    color: #fff;
+    font-weight: bold;
+  }
+  .list-row {
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0;
+  }
+  .data-loading {
+    margin:500px;
+  }
+  .list-row:nth-child(odd) {
+    background-color: #e0e1e2;
+  }
+  .no-data {
+    text-align: center;
+    font-weight: bold;
+  }
+  .list-item {
+    text-align: center;
+    .list-item-action span {
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .list-item-action {
+      .ac-edit {
+        color: #0000ff;
+      }
+      .ac-delete {
+        color: #ff0000;
+      }
+      .ac-other {
+        color: #1177ee;
+      }
+    }
+  }
+}
+.hidden {
+  display: none;
+}
+.list-index{
+  margin: 20px;
+}
+.list-search{
+  margin-top: 20px;
+}
+.list-btn{
+  margin-left: 800px;
+  margin-bottom: 15px;
+}
+.closeButton{position:fixed;
+  bottom:10px;}
+
+.select {
+  width: 100%;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.star {
+  font-size:x-large;
+  color:red;
+}
+.alterMark {
+  font-size:x-small;
+  color: #dd9307;
+}
+
+.radioA {
+  margin-left: 20px;
+}
+.list-pagination {
+  margin-top: 20px;
+}
+
+.progress {
+  width: 100%;
+}
+.alterContentValue {
+  position: relative;
+}
+.alterContentValue::before {
+  content: '';
+  position: absolute;
+  bottom: -0.125em;
+  width: 100%;
+  height: 0.25em;
+  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%);
+  background: linear-gradient(135deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #dc3912, transparent 55%, transparent 100%);
+  background-size: 0.5em 0.5em;
+  background-repeat: repeat-x, repeat-x;
+}
+.alterContentValues {
+  position: relative;
+}
+.alterContentValues::before {
+  content: '';
+  position: absolute;
+  bottom: -0.125em;
+  width: 100%;
+  height: 0.25em;
+  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%);
+  background: linear-gradient(135deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #008000, transparent 55%, transparent 100%);
+  background-size: 0.5em 0.5em;
+  background-repeat: repeat-x, repeat-x;
+}
+.RichEditor-styleButton{
+  margin: 3px 5px;
+  font-size: 12px;
+}
+.RichEditor-editor{
+  height:100px;
+}
+.RichEditor-color{
+  height:14px;
+  width:12px;
+  top:1px;
+}
+.RichEditor-root editorHidden{
+  padding:6px;
+}
+.ant-col-20{
+  width:90%;
+}
+.RichEditor-controls{
+  font-size: 20px;
+}
+.list-pagination{
+  float:right;
+}
+.ant-select-selection-selected-value{
+  color: #666666;
+}
+.ant-input ant-input-lg ant-input-disabled{
+  color: #666666;
+}
+.ant-form-item-control {
+  color: #666666;
+}
+.ant-input-disabled{
+  color:#666666
+}
+.ant-input:hover{
+  color:#222222
+}
+.ant-radio-disabled + span {
+  color:#666666
+}

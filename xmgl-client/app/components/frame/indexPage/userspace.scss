@@ -1,0 +1,84 @@
+@import './indexprop.scss';
+.userspace {
+    &:hover {
+        background-color: #fff;
+        .user-name {
+            color: $base_color;
+        }
+    }
+    width: $userspace_width;
+    height: $menu_height;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    .user-avtar {
+        position: absolute;
+        border-radius: 50%;
+        height: $avtar_length;
+        width: $avtar_length;
+        top: 50%;
+        margin-top: -$avtar_length/2;
+        left: 10px;
+        border: 1px solid #cccccc;
+    }
+    .user-name {
+        position: absolute;
+        font-size: 14px;
+        height: $avtar_length;
+        line-height: $avtar_length;
+        vertical-align: middle;
+        color: $base_color_front;
+        top: 50%;
+        margin-top: -$avtar_length/2;
+        left: $avtar_length + 20px;
+    }
+    $userpanel_height: 100px;
+    $userpanel_width: 200px;
+    .userpanel {
+        position: absolute;
+        width: $userpanel_width;
+        height: $userpanel_height;
+        background-color: #fff;
+        top: 100%;
+        left: - ($userpanel_width - $userspace_width)/2;
+        z-index: 9999;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        $bottom-action-height: 30px;
+        .action-footer {
+            position: absolute;
+            bottom: 0px;
+            height: $bottom-action-height;
+            width: 100%;
+            border-top: 1px solid #cccccc;
+            .loginout-btn {
+                cursor: pointer;
+                line-height: $bottom-action-height;
+                height: $bottom-action-height;
+                font-size: 14px;
+                float: right;
+                margin-right: 5px;
+                vertical-align: middle;
+                color: $base_color;
+            }
+        }
+        .user-menu {
+            margin: 10px 10px;
+            .user-menu-row {
+                height: 20px;
+                line-height: 20px;
+                div {
+                    text-align: center;
+                    cursor: pointer;
+                    &:nth-child(1) {
+                        border-right: 0.5px solid #cccccc;
+                    }
+                    &:nth-child(2) {
+                        border-left: 0.5px solid #cccccc;
+                    }
+                }
+            }
+        }
+    }
+}

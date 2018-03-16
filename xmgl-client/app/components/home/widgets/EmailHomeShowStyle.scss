@@ -1,0 +1,40 @@
+.emailWidgets{
+  font-size: 12px;color: #00897b;;
+}
+.email {
+  height: 240px;//200
+  .email-left {
+    padding: 5px 17px;
+    height: 100%;
+    .label-text {
+      font-weight: bold;
+      font-size: 12px;
+      text-align: right;
+      padding-right: 10px;
+    }
+    .email-row {
+      margin: 5px 0;
+    }
+    .email-control {
+      width: 100%;
+    }
+  }
+  .text-right {
+    padding: 5px 10px;
+    height: 100%;
+    border-left: 1px dashed #cccccc;
+    margin-left: -0.5px;
+    overflow: auto;
+    .text-right-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+    .checkBox{ font-size: 12px;}
+    .text-right-text div {
+      margin: 3px 6px;
+
+    }
+  }
+}

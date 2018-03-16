@@ -1,0 +1,97 @@
+/*
+* 2013-01-30 mengjinqiao
+*/
+
+@charset "utf-8";
+html,body { margin:0; padding:0; text-align:center; }
+a { text-decoration: none; }
+
+.tab {
+	empty-cells:show; 
+	border-collapse: collapse;
+	margin:0 auto;
+}
+.tab tr {
+	border:1px solid #8DB2FF;
+	height:35px;
+}
+.tab td {
+	border:1px solid #8DB2FF;
+	vertical-align:middle;
+}
+.tab .tab_td1 {
+	text-align:right;
+	font-size:13px;
+	color:#000;
+	text-align:right;
+	padding:0 5px 0 0;
+	background:#E0ECFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+}
+.tab .tab_td2 {
+	text-align:left;
+	font-size:13px;
+	padding:0 0 0 5px;
+}
+
+.tab1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	}
+.tab1 tr {
+	border:1px #ccc solid;
+	line-height:30px;
+	}
+.tab1 td {
+	border:1px #ccc solid;
+	}
+	
+.tab1 .tab_td1 {
+	font-size:12px;
+	color:#000;
+	text-align:right;
+	padding:0 5px 0 0;
+	background:#f3f3f3;
+	font-family: "Microsoft YaHei" !important;
+	vertical-align:middle;
+	}
+.tab1 .tab_td2 {
+	font-size:12px;
+	text-align:left;
+	padding:0 0 0 5px;
+	vertical-align:middle;
+	}
+input {
+	border:1px solid #8DB2E3;
+ 	line-height:22px;
+ 	padding:0px 4px;
+	font-size:14px;
+	height:22px;
+	vertical-align:bottom;
+	color:#000099;
+}
+select { 
+	height:22px;
+	line-height:22px;
+	font-size:14px;
+	border:1px solid #8DB2E3;
+	color:#000099;
+}
+input:hover {
+	border: 1px solid #FF0000;
+}
+select:hover {
+	border: 1px solid #FF0000;
+}
+.tr_big_title {
+	height:30px;
+	align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family:'楷体','宋体';
+}
+.inputReadonly {
+ 	background:#ededed;
+}
+
+

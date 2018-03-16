@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+*{font-size:12px;margin:0;padding:0 0;font-family:微软雅黑,tahoma;outline:0;}
+ul,li{list-style:none}
+img{border:0 none}
+.inner6px{margin:6px}
+.inner12px{margin:12px}
+a{text-decoration:none}
+
+.btn_01{text-shadow:1px 1px 1px #fff;position:relative;margin:0 8px;display:inline-block;background:url(../images/system/btn_02.png) no-repeat;height:25px;line-height:21px;text-align:center;color:#484848;padding:0 8px 0 20px}
+.btn_01 b{position:absolute;top:0;right:-10px;background:url(../images/system/btn_02.png) no-repeat right top;height:25px;width:10px}
+.btn_01:hover{background-position:0 -25px}
+.btn_01:hover b{background-position:right -25px}
+.btn_01_bold {font-weight:bold;}

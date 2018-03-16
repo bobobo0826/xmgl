@@ -1,0 +1,48 @@
+.loginView
+{
+    background : url("http://192.168.117.202:9999/public/extend/bingdaypic");
+    height: 100%;
+    position: relative;
+}
+.login-panel {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -125px;
+    margin-left: -150px;
+    border: 1px solid #cccccc;
+    /* border-radius: 5px; */
+    padding: 15px;
+    background-color: rgba(255,255,255,.3);
+}
+
+.login-panel .login-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(88,88,88,1);
+}
+
+.login-panel .login-row button {
+    float: right;
+}
+
+.login-panel .login-row .login-tip span {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.login-panel .login-row {
+    margin-top: 20px;
+}
+
+.login-panel .login-row .login-success {
+    color: #008800;
+}
+
+.login-panel .login-row .login-failed {
+    color: #880000;
+}

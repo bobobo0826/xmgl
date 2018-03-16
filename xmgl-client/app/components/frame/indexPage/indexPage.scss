@@ -1,0 +1,61 @@
+@import './indexprop.scss';
+.page {
+    height: 100%;
+    position: relative;
+    .header {
+        position: absolute;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        min-width: 1366px;
+        height: $menu_height;
+        background-color: $base_color;
+        .logo {
+            width: 174px;
+            height: 36px;
+            background: url('/images/logo.png');
+            border-radius: 6px;
+            margin: 2px 28px 13px 0;
+            float: left;
+        }
+        .menu {
+            height: $menu_height !important;
+            min-width: 800px;
+            display: inline-block;
+            background-color: $base_color;
+            li {
+                color: #ffffff;
+                height: $menu_height !important;
+                line-height: $menu_height !important;
+            }
+        }
+        .btn-loginout {
+            float: right;
+            height: 36px;
+            border-radius: 6px;
+            margin: 13px 28px 13px 0;
+        }
+    }
+    .page-content {
+        position: absolute;
+        left: 0px;
+        top: $menu_height;
+        right: 0;
+        bottom: 65px;
+        min-height: 600px;
+        min-width: 960px;
+        iframe {
+            border: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .footer {
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 65px;
+        text-align: center;
+    }
+}
